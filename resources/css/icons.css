@@ -1,0 +1,9 @@
+.icons{
+    width: 25px;
+}
+
+.icon-big{
+    width: 65px;
+    display: block;
+    margin-bottom: 10px;   
+}
