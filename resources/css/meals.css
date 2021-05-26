@@ -1,0 +1,45 @@
+/*
+    --------------------------
+        MEALS
+    --------------------------
+*/
+
+.section-meals{
+    padding: 0;
+}
+
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo{
+    width: 100%;
+    margin:0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.meal-photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15),opacity 2.0s;
+}
+
+.meal-photo img:hover{
+    opacity: 1.0;
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+
+.section-features .long-copy{
+    margin-bottom: 30px;
+}

@@ -157,3 +157,18 @@ section{
 .btn-ghost:visited{
     border: 1px solid #fdcb6e
 }
+
+/*
+    --------------------------
+        CLEAR-FIX to Clear floatsif any
+    --------------------------
+*/
+
+.clearfix{zoom:1}
+.clearfix::after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
