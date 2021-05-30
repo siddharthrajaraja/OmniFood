@@ -1,0 +1,35 @@
+.section-testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.8)), url('../images/back-customers.jpg');
+    color: white;
+    background-attachment: fixed;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 50px;
+}
+
+blockquote::before{
+    content: '\201C';
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -30px;
+}
+
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img{
+    height: 100px;
+    border-radius: 50% 50% 50% 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
