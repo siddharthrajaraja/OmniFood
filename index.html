@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./resources/css/testimonials.css">
     <link rel="stylesheet" href="./resources/css/plans.css">
     <link rel="stylesheet" href="./resources/css/animate-logo.css">
+    <link rel="stylesheet" href="./resources/css/contact-form.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
     <title>Omnifood</title>
@@ -447,24 +448,96 @@
         </div>
     </section>
 
+
+    <section class="section-form">
+        <div class="row">
+            <h2 clas="heading-title"> We're happy to hear from you</h2>
+        </div>
+        <div class="row">
+            <form action="#" method="post" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="how-find-us">How did you find us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="how-find-us" id="how-find-us">
+                            <option value="YouTube" selected >YouTube</option>
+                            <option value="YouTube"  >Facebook</option>
+                            <option value="YouTube"  >Google</option>
+                            <option value="YouTube"  >Amazon</option>
+                            <option value="YouTube"  >Zomato</option>
+                            
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="newsletters">Newsletters</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="newsletters" id="newsletters" checked>&nbsp;Yes, please
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="feedback">Drop us a line</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="feedback" id="feedback" cols="30" rows="3"></textarea>
+                    </div>
+                </div>
+                
+                
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="feedback">&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" class="submit-btn" value="Submit">
+                    </div>
+                </div>
+                
+                
+
+            </form>
+        </div>
+    </section>
+
 </body>
 </html>
 
 <!--
-    Section 6: Sign up and pricing plans
+    Title: We're happy to hear from you
 
-Title: Start eating healthy today
+Fields to include:
 
+Name
 
-Plan 3: Starter
+Email
 
-19$ per meal
+How did you find us?
 
-1 meal
+Newsletter
 
-Order from 8 am to 12 pm
-
-Free delivery
-
+Drop us a line
 
 -->

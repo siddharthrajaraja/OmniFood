@@ -23,7 +23,7 @@
     height: 18px;
 }
 
-.plan-box > div > a.btn{
+.submit-btn, .plan-box > div > a.btn{
     margin-top: 5%;
     display: flex;
     border: solid black;
@@ -31,9 +31,10 @@
     justify-content: center;
     align-items: center;
     width: auto;
+    color: white;
     background-color: black;
 }
-.plan-box > div >a.btn:hover{
+.submit-btn:hover , .plan-box > div >a.btn:hover{
     background-color: orange;
     border: solid orange;
 }
@@ -63,4 +64,8 @@
 
 .plan-price span{
     font-size: 75%;
+}
+
+*:focus{
+    outline: none;
 }
