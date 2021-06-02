@@ -1,0 +1,37 @@
+.footer{
+    background-color: rgba(128, 128, 128, 0.301);
+}
+.footer-nav li , .social-links li {
+    list-style: none;
+    margin: 5% auto;
+}
+.social-links li{
+    margin: 6.5% auto;
+}
+.footer-nav li a{
+    text-decoration: none;
+}
+
+.social-links li a img{
+    width: 5%;
+    height: 5%;
+    
+}
+
+.copyrights{
+    display: block;
+    text-align: center;
+}
+
+.copyrights span{
+    font-size: 110%;
+}
+
+.footer-grid{
+    display: block;
+    text-align: center;
+}
+
+.footer-nav li a:hover{
+    color: red;
+}
