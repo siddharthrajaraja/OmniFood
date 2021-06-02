@@ -1,0 +1,10 @@
+
+.logo{
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.logo:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
