@@ -9,14 +9,15 @@
     box-sizing: border-box;
 }
 
-html{
+html, body{
     background-color: white;
     color: black;
     text-rendering: optimizeLegibility;
-    font-family: 'Ragged One', cursive;
+    font-family: /*'Ragged One', cursive,*/sans-serif;
     font-weight: 300;
     font-size: 20px;
-
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 /*
