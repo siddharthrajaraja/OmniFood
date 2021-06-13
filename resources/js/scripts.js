@@ -9,23 +9,28 @@ $(document).ready(function(){
     },{
         offset:'50px'
     })
-    
-    // var waypoint = new Waypoint({
-    //         element: $('.js-section-features')[0],
-    //         handler: function() {
 
-    //             notify('Basic waypoint triggered')
-    //         }
-    // })
-
-
-    // console.log(waypoint)
-    /*
-   var waypoint = new Waypoint({
-        element: document.getElementById('basic-waypoint'),
-        handler: function() {
-            notify('Basic waypoint triggered')
-        }
+    $('.js-scroll-to-plan').click(function(){
+        $('html,body').animate({scrollTop: $('.js-section-plans').offset().top},1000);
     })
-   */ 
+
+    $('.js-scroll-to-feature').click(function(){
+        $('html,body').animate({scrollTop: $('.js-section-features').offset().top},1000);
+    })
+    $('.js-scroll-to-how-it-work').click(function(){
+        $('html,body').animate({scrollTop: $('.js-how-it-works').offset().top},1000);
+    })
+
+    $('.js-scroll-to-cities').click(function(){
+        $('html,body').animate({scrollTop: $('.js-cities').offset().top},1000);
+    })
+
+    $('.js-scroll-to-plan').click(function(){
+        $('html,body').animate({scrollTop: $('.js-section-plans').offset().top},1000);
+    })
+
+    
+    
+
+
 })
