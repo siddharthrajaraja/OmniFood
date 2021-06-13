@@ -23,10 +23,14 @@
 .main-nav li a:active{
     border-bottom: 1px solid #f19e03;
     /*background-color: black;*/
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
     transition: background-color 0.5s;
 }
 
 .main-nav li{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-left:40px;
 }

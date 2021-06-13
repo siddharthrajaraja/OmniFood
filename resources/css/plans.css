@@ -3,7 +3,8 @@
 }
 
 .plan-box{
-    box-shadow: 0 2px 2px grey;/*x y blurr */
+    -webkit-box-shadow: 0 2px 2px grey;
+            box-shadow: 0 2px 2px grey;/*x y blurr */
 }
 
 .plan-box div:first-child{
@@ -25,11 +26,17 @@
 
 .submit-btn, .plan-box > div > a.btn{
     margin-top: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     border: solid black;
     border-radius: 0;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: auto;
     color: white;
     background-color: black;

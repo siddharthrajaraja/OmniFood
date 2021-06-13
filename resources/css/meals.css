@@ -31,13 +31,21 @@
     opacity: 0.7;
     width: 100%;
     height: auto;
-    transform: scale(1.15),opacity 2.0s;
+    -webkit-transform: scale(1.15),opacity 2.0s;
+        -ms-transform: scale(1.15),opacity 2.0s;
+            transform: scale(1.15),opacity 2.0s;
 }
 
 .meal-photo img:hover{
     opacity: 1.0;
-    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+            transform: scale(1.03);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
     transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
 .section-features .long-copy{
