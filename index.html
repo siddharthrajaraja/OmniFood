@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./resources/css/contact-form.css">
     <link rel="stylesheet" href="./resources/css/footer.css">
     <link rel="stylesheet" href="./resources/css/media-queries/queries.css">
+    <link rel="stylesheet" href="./resources/css/sticky-nav.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
     <title>Omnifood</title>
@@ -26,9 +27,11 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="">
             <div class="row small-med-logo-nav">
                 <img src="./resources/images/logo-white.png"  class="logo" alt="Omnifood logo">
+                <img src="./resources/images/logo.png"  class="logo-black" alt="Omnifood logo">
+                
                 <ul class="main-nav">
                     <li> <a href="#">Food Delivery</a> </li>
                     <li> <a href="#">How it works?</a> </li>
@@ -47,7 +50,7 @@
         </div>
     </header>
 
-    <section class="section-features">
+    <section class="section-features js-section-features">
         <div class="row">
             <h2>
                  Get food fast — not fast food.</h2>
@@ -548,6 +551,8 @@
             
         </div>
     </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="./resources/js/scripts.js"></script>
 </body>
 </html>

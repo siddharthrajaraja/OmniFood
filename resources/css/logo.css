@@ -5,6 +5,19 @@
     margin-top: 20px;
 }
 
+.logo-black{
+    display: none;
+    -webkit-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+       transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+
+}
+
 .main-nav{
     margin-top: 50px;
     float: right;

@@ -1,0 +1,42 @@
+.sticky{
+    box-shadow: 0 2px 2px #888888;
+    z-index: 999;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.979);
+    color: black;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    /*border: 1px solid #f19e03;*/
+    /*border-radius: 50%;*/
+    color: #555;
+}
+
+.sticky .logo-black{
+    display: block;
+    height: 100px;
+    width: auto;
+    float: left;
+    margin: 8px 0;
+}
+
+.sticky .logo{
+    display: none;
+}
+
+.sticky >.row > img.logo-black:hover{
+    -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.sticky .main-nav{
+    margin-top: 25px;
+}
